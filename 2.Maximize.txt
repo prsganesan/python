@@ -1,0 +1,22 @@
+You are given K lists. Each list consists of N elements.
+You have to pick one element from each list so that the value from the equation below is maximized :
+
+S = f(x1^2)+f(x2^2)+f(x3^2)+...+f(xn^2)% M
+
+x1,x2,x3 denote the element picked from list 1,2,3 and so on. Pls find the value of S.
+
+Input Format :
+The first line contains space separated integers K and M.
+The next K lines each contains an integer N followed by space separated N integers denoting the elements in the list.
+
+Sample Input:
+3 1000
+2 3 4
+3 2 3 5
+4 2 4 5 6
+
+Sample Output:
+77
+
+Explanation:
+Pick 2nd Element from 1st list i.e 4, 3rd Element from 2nd list i.e 5 and 4th element from 3rd list i.e 6
